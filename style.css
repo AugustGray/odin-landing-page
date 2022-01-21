@@ -137,7 +137,10 @@ button a{
 }
 
 #CTA {
-    background-image: url(./img/asuka-wp.jpeg);
+    background-color: #3882F6;
+    background-image: url(./img/keqing-ctawp.jpeg);
+    background-blend-mode: multiply;
+    background-position: right;
 }
 
 .CTA {
@@ -146,6 +149,15 @@ button a{
     justify-content: center;
     gap: 32px;
     min-height: 30vh;
+    color: white;
+}
+
+.cta-content h3 {
+    font-size: 24px ;
+}
+
+.cta-content p {
+    font-size: 18px;
 }
 
 .footer {
