@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+
+*, body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    padding: 16px;
+}
+
+button a{
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: rgb(0,0,0);
+}
+
+.logo a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    font-weight: 700;
+}
+
+#title {
+    height: 70vh;
+    /*background-image: url(./img/makima-wp.jpeg);*/
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+    color: white;
+}
+
+.title img {
+    width: 400px;
+}
+
+.title-content {
+    max-width: 600px;
+    width: 600px;
+}
+
+.title-content h1 {
+    margin-bottom: 16px;
+}
+
+.title-content p {
+    margin-bottom: 32px;
+    width: 300px;
+}
+
+.top-5 {
+    margin-top: 64px;
+    text-align: center;
+}
+
+.top-5 h2 {
+    margin-bottom: 32px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.card img {
+    margin-bottom: 16px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    min-height: 40vh
+}
+
+.quote-content {
+    font-size: 32px;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: 700;
+    margin-left: auto;
+    margin-top: 16px;
+}
+
+#CTA {
+    background-image: url(./img/asuka-wp.jpeg);
+}
+
+.CTA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    min-height: 30vh;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+}
