@@ -84,26 +84,5 @@
         </div>
     </div>
     <div class="footer">Top 5 Waifus 2022</div>
-
-    <!-- Script -->
-    <!-- <script src="./script.js"></script> -->
-    <script type="text/javascript">
-        var images = ["makima-wp.jpeg", "diana-wp.jpeg", "zerotwo-wp.jpeg", "asuka-wp.jpeg", "antenora-wp.jpg"];
-    $(function () {
-        var i = 0;
-        $("#title").css("background-image", "url(./img/" + images[i] + ")");
-        setInterval(function () {
-            i++;
-            if (i == images.length) {
-                i = 0;
-            }
-            $("#title").fadeOut("slow", function () {
-                $(this).css("background-image", "url(./img/" + images[i] + ")");
-                $(this).fadeIn("slow");
-            });
-        }, 5000);
-    });
-
-    </script>
 </body>
 </html>
