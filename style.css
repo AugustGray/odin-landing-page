@@ -45,25 +45,26 @@ button a{
 
 #title {
     height: 70vh;
+    background-position: top;
     /*background-image: url(./img/makima-wp.jpeg);*/
-    -webkit-animation: background 20s cubic-bezier(1,0,0,1) infinite;
+    -webkit-animation: background 5s cubic-bezier(1,0,0,1) infinite;
   animation: background 20s cubic-bezier(1,0,0,1) infinite;
 }
 
 @-webkit-keyframes background {
     0% { background-image: url(./img/makima-wp.jpeg);}
-    25% { background-image: url(./img/diana-wp.jpeg); }  
-    50% { background-image: url(./img/zerotwo-wp.jpeg); }
-    75% { background-image: url(./img/asuka-wp.jpeg); }
-    100% { background-image: url(./img/keqing-wp.jpeg); }
+    25% { background-image: url(./img/diana-wp.jpeg);}  
+    50% { background-image: url(./img/zerotwo-wp.jpeg);}
+    75% { background-image: url(./img/asuka-wp.jpeg);}
+    100% { background-image: url(./img/keqing-wp.jpeg);}
   }
   
   @keyframes background {
     0% { background-image: url(./img/makima-wp.jpeg);}
-    25% { background-image: url(./img/diana-wp.jpeg); }  
-    50% { background-image: url(./img/zerotwo-wp.jpeg); }
-    75% { background-image: url(./img/asuka-wp.jpeg); }
-    100% { background-image: url(./img/keqing-wp.jpeg); }
+    25% { background-image: url(./img/diana-wp.jpeg);}  
+    50% { background-image: url(./img/zerotwo-wp.jpeg);}
+    75% { background-image: url(./img/asuka-wp.jpeg);}
+    100% { background-image: url(./img/keqing-wp.jpeg);}
   }
 
 .title {
