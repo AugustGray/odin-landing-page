@@ -52,16 +52,18 @@ button a{
 
 @-webkit-keyframes background {
     0% { background-image: url(./img/makima-wp.jpeg);}
-    33% { background-image: url(./img/diana-wp.jpeg); }  
-    67% { background-image: url(./img/zerotwo-wp.jpeg); }
-    100% { background-image: url(./img/asuka-wp.jpeg); }
+    25% { background-image: url(./img/diana-wp.jpeg); }  
+    50% { background-image: url(./img/zerotwo-wp.jpeg); }
+    75% { background-image: url(./img/asuka-wp.jpeg); }
+    100% { background-image: url(./img/keqing-wp.jpeg); }
   }
   
   @keyframes background {
     0% { background-image: url(./img/makima-wp.jpeg);}
-    33% { background-image: url(./img/diana-wp.jpeg); }  
-    67% { background-image: url(./img/zerotwo-wp.jpeg); }
-    100% { background-image: url(./img/asuka-wp.jpeg); }
+    25% { background-image: url(./img/diana-wp.jpeg); }  
+    50% { background-image: url(./img/zerotwo-wp.jpeg); }
+    75% { background-image: url(./img/asuka-wp.jpeg); }
+    100% { background-image: url(./img/keqing-wp.jpeg); }
   }
 
 .title {
